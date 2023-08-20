@@ -2,12 +2,30 @@
 ### **Task:** Examples represent yes and no instances of Portugese customers who converted and not  after a marketing campaign of phone calls.
 ### **Trained Model:** 
 [Model](https://github.com/Kmohamedalie/Bank-Marketing_Portuguese_Customers/tree/master/Trained%20Model), Training Time: 4h 35min 53s,  Accuracy: 92% but note that 88.7% of the customers never sign up after the phone calls, in marketing terms the conversion/acquisiton rate was very low. So it is better we focus on other metrics such as f1-score, precision and recall since the dataset is imbalanced (88.7 to 11.2).
+
 ### **Dataset available on:** [UCI Machine Learning Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing) , [Kaggle](https://www.kaggle.com/datasets/impapan/credit-approval-data-set)
 
-**Developers' Guide:** [Amazon Machine Learning](https://docs.aws.amazon.com/pdfs/machine-learning/latest/dg/machinelearning-dg.pdf#cross-validation)                                             
-**Link to the notebook:** [Bank Marketing Xgboost](https://github.com/Kmohamedalie/Bank-Marketing_Portuguese_Customers-XGBOOST/blob/master/Notebook/Bank_Marketing_Portuguese_Customers_Xgboost.ipynb)
+**Developers' Guide:** [Amazon Machine Learning](https://docs.aws.amazon.com/pdfs/machine-learning/latest/dg/machinelearning-dg.pdf#cross-validation)     
+
+**Completed jupyternotebook:** [Bank Marketing Xgboost](https://github.com/Kmohamedalie/Bank-Marketing_Portuguese_Customers-XGBOOST/blob/master/Notebook/Bank_Marketing_Portuguese_Customers_Xgboost.ipynb)
+
+
+
+**Metrics:**
+
+| Algorithm | Precision | Recall | F1-score | Accuracy |
+|-----------|-----------|--------|----------|----------|
+| Xgboost (GridSearchCV)  | 92%       |  92%   | 92%      | 92%    |
+
+
+
 
 ![image](https://github.com/Kmohamedalie/Bank-Marketing_Portuguese_Customers/assets/63104472/9dc0797f-60e8-463d-bcf0-1341ad1bc0b9)
+
+
+
+
+## Additional information
 
 
 - Title: Bank Marketing
