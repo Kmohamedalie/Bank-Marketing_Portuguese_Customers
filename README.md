@@ -25,7 +25,7 @@
 
 
 
-## Additional information
+## **Additional information about the dataset**
 
 
 - Title: Bank Marketing
